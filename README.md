@@ -6,7 +6,7 @@ Importance sampling allows you to speed up certain statistical estimators by dec
 
 ## Surrogate generation
 
-Surrogate models can be constructed in countless different ways but can be time consuming to implement. This package will allow you to automatically construct surrogates from partial differential equation systems using [ModelingToolkit.jl](mtk.sciml.ai). This allows you to use all of the other analysis and simulation tools from the SciML stack without much hassle.
+Surrogate models can be constructed in countless different ways but can be time consuming to implement. This package will allow you to automatically construct surrogates from partial differential equation systems using [ModelingToolkit.jl](https://mtk.sciml.ai). This allows you to use all of the other analysis and simulation tools from the SciML stack without much hassle.
 
 ## Importance sampling
 

@@ -6,7 +6,9 @@ Importance sampling allows you to speed up certain statistical estimators by dec
 
 ## Surrogate generation
 
-Surrogate models can be constructed in countless different ways but can be time consuming to implement. This package will allow you to automatically construct surrogates from partial differential equation systems using [ModelingToolkit.jl](https://mtk.sciml.ai). This allows you to use all of the other analysis and simulation tools from the SciML stack without much hassle.
+Surrogate models can be constructed in countless different ways but can be time consuming to implement. This package will allow you to automatically construct surrogates from partial differential equation systems using [ModelingToolkit.jl](https://mtk.sciml.ai). This allows you to use all of the other analysis and simulation tools from the SciML stack without much hassle. 
+
+The type of surrogate models that will be supported are Proper Orthogonal Decomposition (POD) and Discrete Empirical Interpolation Method (DEIM). POD allows you to reduce the order of linear systems such as ODEs and root finding problems. It can handle nonlinearities but not with the same computational efficiency as DEIM. Combining POD and DEIM results in a relatively simple method that applies to lots of system types.
 
 ## Importance sampling
 

@@ -6,7 +6,7 @@ Importance sampling allows you to speed up certain statistical estimators by dec
 
 ## Scripts
 
-ThesePreliminary scripts are located in the `scripts` folder. These do *NOT* contain a fully functional MFIS implementation yet. To install the dependencies for the scripts simply run the `instantiate` command in Julia's package manager. Once this is done you'll be able to run all of the scripts.
+Some preliminary scripts are located in the `scripts` folder. These do *NOT* contain a fully functional MFIS implementation yet. To install the dependencies for the scripts simply run the `instantiate` command in Julia's package manager. Once this is done you'll be able to run all of the scripts.
 
 `importancesampling.jl` visualizes a very simple instance of importance sampling.
 

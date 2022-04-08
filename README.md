@@ -4,6 +4,14 @@ This repository will soon contain an implementation of multi-fidelity importance
 
 Importance sampling allows you to speed up certain statistical estimators by decreasing their variance. To reduce the variance of these estimators and get better results, you need to define a sampling distribution. MFIS constructs one using a surrogate model.
 
+## Scripts
+
+ThesePreliminary scripts are located in the `scripts` folder. These do *NOT* contain a fully functional MFIS implementation yet. To install the dependencies for the scripts simply run the `instantiate` command in Julia's package manager. Once this is done you'll be able to run all of the scripts.
+
+`importancesampling.jl` visualizes a very simple instance of importance sampling.
+
+`hydrogenFlameSteady.jl` is the main script for the MFIS implementation (almost finished)
+
 ## Surrogate generation
 
 Surrogate models can be constructed in countless different ways but can be time consuming to implement. This package will allow you to automatically construct surrogates from partial differential equation systems using [ModelingToolkit.jl](https://mtk.sciml.ai). This allows you to use all of the other analysis and simulation tools from the SciML stack without much hassle. 
